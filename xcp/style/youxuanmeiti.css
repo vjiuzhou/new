@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+#banner{  width:1400px; margin:0 auto;}
+#yxmt-banner{text-align:center;}
+
+#main{}
+#main .left{ width:940px;}
+#main .left #neirong li{ height:270px; padding:25px 0; border-bottom:1px dashed #ff3366;}
+#main .left #neirong li .dt1{ width:180px;}
+#main .left #neirong li .dt2{ width:224px;}
+#main .left #neirong li dt a{ background:#ff3366; display:inline-block; width:100%; text-align:center; line-height:25px;}
+#main .left #neirong li dt a:hover{ color:#fff; background:#c61642;}
+#main .left #neirong li dt .top5{ margin-top:5px;}
+#main .left #neirong li dt .top14{ margin-top:14px;}
+#main .left #neirong dd{ width:536px; height:100px; padding:15px 30px;}
+#main .left #neirong dd a:hover{ text-decoration:underline;}
+#main .left #neirong dd p a{ color:#ff3366; font-size:1.125em; font-family:"微软雅黑"; padding-bottom:5px;}
+#main .left #neirong dd span{ display:inline-block; color:#2da836; padding:0 5px; font-size:0.875em; line-height:16px;}
+#main .left #neirong dd .fanwei{ color:#5d5d5d;}
+#main .left #neirong dd .fanwei a{color:#5d5d5d;}
+#main .left #neirong dd .line{ padding-bottom:10px; border-bottom:1px solid #f1d6dd;}
+#main .left #neirong dd .margintop{ margin-top:15px;}
+#main .left #neirong .border-none{ border-bottom:none;}
+
+
+#main .right{ width:200px;}
+#main .right .title{color:#ff3366; font-family:"微软雅黑";margin-bottom:10px; font-size:1.5em;}
+#main .right dl{ width:200px; border:1px solid #ffdce5; height:303px;}
+#main .right dl:hover{ border:1px solid #ff3366;}
+#main .right dt { position:relative;}
+#main .right dt .ys{ width:200px; height:200px; background:rgba(0,0,0,0.5); color:#fffb01; text-align:center; padding-top:90px;
+				position:absolute; top:0px; left:0px; z-index:999; display:none;}
+#main .right dt:hover .ys{ display:block;}
+#main .right dl .jianju{ padding:0 4px;}
+#main .right dd a{ color:#5d5d5d;}
+#main .right dd{ font-family:"微软雅黑"; font-size:1.125em;}
+#main .right dd span{ margin-left:10px;}
+#main .right .marginbot{ margin-bottom:26px;}
+#main .right dl div p{ font-size:0.75em;}
+#main .right dl div b{ font-size:1.125e; color:#fd2b2b;}
+#main .right dl div a{ display:inline-block; width:45px; height:55px; position:relative; left:40px; bottom:15px;}
