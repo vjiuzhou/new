@@ -1,14 +1,31 @@
 // JavaScript Document
+/*renwudating-zhezhao*/
+window.onload=function() 
+ { 
+  var zhezhao=document.getElementById("zhezhao"); 
+  var xiangqing=document.getElementById("xiangqing"); 
+  var bt=document.getElementById("bt"); 
+  var btclose=document.getElementById("btclose"); 
+   
+  bt.onclick=function() 
+  { 
+   zhezhao.style.display="block"; 
+   xiangqing.style.display="block"; 
+  } 
+  btclose.onclick=function() 
+  { 
+   zhezhao.style.display="none"; 
+   xiangqing.style.display="none";  
+  } 
+ } 
+/*renwudating-zhezhao-end*/
 
 $(document).ready(function()
-{tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();
+{tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();
 });
 
-
-/*index*/
-
 //banner-tab
-function tab(){
+ function tab(){
 	$("#tab dl").hide();
 	$("#tab dl:eq(0)").show();
 	
@@ -27,7 +44,8 @@ function hover(){
 				$(this).addClass('red')}
 )} 
 //banner-tab-hover
-
+ 
+ 
 function tab1(){
 	$("#tab1 ul").hide();
 	$("#tab1 ul:eq(0)").show();
@@ -72,7 +90,7 @@ function tab4(){
 
 function tab5(){
 	$("#tab5 li").hide();
-	$("#tab5 li:eq(3)").show();
+	$("#tab5 li:eq(0)").show();
 	
 	$(".switch5 a").hover(function(){
 		var num=$(this).index();
@@ -86,10 +104,8 @@ function tab5(){
 				$('a').removeClass('pink')
 				$(this).addClass('pink')}
 		)}
-/*index-end	*/	
-
-
-//renwudating		
+		
+		
 function rwtab(){
 	$("#rwtab ul").hide();
 	$("#rwtab ul:eq(0)").show();
@@ -108,4 +124,13 @@ function hide(){
 			$("#yc dd").toggleClass("biankuang");
 			})
 	}
-//renwudating-end
+	
+function yxmttab(){
+	$("#yxmt ul").hide();
+	$("#yxmt ul:eq(0)").show();
+	
+	$(".yxmttab a").hover(function(){
+		var num=$(this).index();
+		$("#yxmt ul").hide();
+		$("#yxmt ul:eq("+num+")").show()})
+}	
