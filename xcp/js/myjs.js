@@ -4,14 +4,15 @@ window.onload=function()
  { 
   var zhezhao=document.getElementById("zhezhao"); 
   var xiangqing=document.getElementById("xiangqing"); 
-  var bt=document.getElementById("bt"); 
+  var bt=$("td[name=bt]");
   var btclose=document.getElementById("btclose"); 
-   
-  bt.onclick=function() 
-  { 
-   zhezhao.style.display="block"; 
-   xiangqing.style.display="block"; 
-  } 
+ 
+ 	bt.click(function(){
+		
+			zhezhao.style.display="block"; 
+   			xiangqing.style.display="block"; 
+		
+		})
   btclose.onclick=function() 
   { 
    zhezhao.style.display="none"; 
