@@ -1,4 +1,5 @@
 // JavaScript Document
+
 /*renwudating-zhezhao*/
 window.onload=function() 
  { 
@@ -22,9 +23,10 @@ window.onload=function()
 /*renwudating-zhezhao-end*/
 
 $(document).ready(function()
-{tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();
+{tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();
 });
 
+/*index*/
 //banner-tab
  function tab(){
 	$("#tab dl").hide();
@@ -37,15 +39,14 @@ $(document).ready(function()
 }
 //banner-tab
 
-//banner-tab-hover 
+//index-banner-tab-hover 
 function hover(){
 		$('#qiehuan li').hover(
 			function(){
 				$('li').removeClass('red')
 				$(this).addClass('red')}
 )} 
-//banner-tab-hover
- 
+//index-banner-tab-hover
  
 function tab1(){
 	$("#tab1 ul").hide();
@@ -104,9 +105,10 @@ function tab5(){
 			function(){
 				$('a').removeClass('pink')
 				$(this).addClass('pink')}
-		)}
-		
-		
+		)}		
+/*index-end*/	
+
+/*任务大厅*/	
 function rwtab(){
 	$("#rwtab ul").hide();
 	$("#rwtab ul:eq(0)").show();
@@ -116,6 +118,7 @@ function rwtab(){
 		$("#rwtab ul").hide();
 		$("#rwtab ul:eq("+num+")").show()})
 }	
+/*任务大厅-end*/
 
 function hide(){
 		$("#yc span").click(function(){
@@ -125,7 +128,8 @@ function hide(){
 			$("#yc dd").toggleClass("biankuang");
 			})
 	}
-	
+
+/*优选媒体*/	
 function yxmttab(){
 	$("#yxmt ul").hide();
 	$("#yxmt ul:eq(0)").show();
@@ -135,3 +139,31 @@ function yxmttab(){
 		$("#yxmt ul").hide();
 		$("#yxmt ul:eq("+num+")").show()})
 }	
+/*优选媒体-edn*/
+
+/*个人中心主*/
+function grzxhover(){
+		$('#personal .right .font div .p1').hover(
+			function(){
+				$('.p1').removeClass('pink')
+				$(this).addClass('pink')}
+)} 
+//tab
+function grzxtab(){
+	$("#personal #neirong .tab").hide();
+	$("#personal #neirong .tab:eq(0)").show();
+	$("#personal .font .p2").hide();
+	$("#personal .font .p2:eq(0)").show();
+	
+	$("#personal .right .font div").hover(function(){
+		var num=$(this).index();
+		$("#personal #neirong .tab").hide();
+		$("#personal #neirong .tab:eq("+num+")").show()})
+		
+	$("#personal .right .font div").hover(function(){
+		var num=$(this).index();
+		$("#personal .font .p2").hide();
+		$("#personal .font .p2:eq("+num+")").show()})
+}	
+//tab-end
+/*个人中心主-end*/
