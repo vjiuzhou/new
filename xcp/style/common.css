@@ -23,11 +23,13 @@
 /*nav-end*/
 
 /*page*/
-#page{ margin-top:20px;}
-#page span{ color:#5e5e5e; padding:0 10px;}
+#page{ margin:20px;}
+#page span{ color:#5e5e5e; padding:0 10px; }
 #page a{color:#5e5e5e; }
 #page a{ display:inline-block; height:30px; line-height:30px; padding:0 15px;}
 #page .line{border:1px solid #ff3366;color:#ff3366;}
+#page select{ background:#fff; width:80px; margin-left:20px;}
+#page .span2{ margin-top:10px;display:inline-block;}
 /*page*/
 
 
