@@ -7,12 +7,9 @@ window.onload=function()
   var xiangqing=document.getElementById("xiangqing"); 
   var bt=$("td[name=bt]");
   var btclose=document.getElementById("btclose"); 
- 
  	bt.click(function(){
-		
 			zhezhao.style.display="block"; 
    			xiangqing.style.display="block"; 
-		
 		})
   btclose.onclick=function() 
   { 
@@ -23,7 +20,8 @@ window.onload=function()
 /*renwudating-zhezhao-end*/
 
 $(document).ready(function()
-{tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();
+{tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();mtfwbuy();
+label(); exchange();order();
 });
 
 /*index*/
@@ -127,7 +125,7 @@ function hide(){
 			$("#yc .hide2").toggle();
 			$("#yc dd").toggleClass("biankuang");
 			})
-	}
+}
 
 /*优选媒体*/	
 function yxmttab(){
@@ -167,3 +165,55 @@ function grzxtab(){
 }	
 //tab-end
 /*个人中心主-end*/
+
+/*媒体服务购买页*/
+//top
+$(function(){
+	$("#mtfw .top dd li").hover(function(){
+	var index=$("#mtfw .top dd li").index(this);
+	$(this).parent().parent().find(".switch").hide();
+	$("#mtfw .switch").eq(index).show();
+	})
+})
+function b(){
+		$("#mtfw .top ul li b").click(function(){
+			$(this).toggleClass("b");
+			})
+}
+//top-end
+//content li
+function mtfwbuy(){
+		$('#mtfw .content ul li').hover(
+			function(){
+				$('li').removeClass('hover')
+				$(this).addClass('hover')}
+)} 
+//content li-end
+//content-tab3
+function label(){
+		$('#mtfw .content .tab .tab3 label').click(
+			function(){
+				$('label').removeClass('hover')
+				$(this).addClass('hover')}
+)}
+//content-tab3-end
+function exchange(){
+	$("#mtfw .left .footer .tab .exchange").hide();
+	$("#mtfw .left .footer .tab .exchange:eq(0)").show();
+	
+	$("#mtfw .left .footer .switch li").hover(function(){
+		var num=$(this).index();
+		$("#mtfw .left .footer .tab .exchange").hide();
+		$("#mtfw .left .footer .tab .exchange:eq("+num+")").show()})
+}
+
+//订单点击显示
+function order(){
+	$("#mtfw .top .dj").click(function(){
+		$("#mtfw #zhezhao").show();
+		$("#mtfw #xiangqing").show();
+		})
+}
+//订单点击显示-end
+
+/*媒体服务购买页-end*/
