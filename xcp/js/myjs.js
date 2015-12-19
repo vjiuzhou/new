@@ -21,7 +21,7 @@ window.onload=function()
 
 $(document).ready(function()
 {tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();mtfwbuy();
-label(); exchange();order();
+label(); exchange();order();hide2();
 });
 
 /*index*/
@@ -140,6 +140,15 @@ function yxmttab(){
 /*优选媒体-edn*/
 
 /*个人中心主*/
+
+function hide2(){
+	$("#personal .left dl dd").click(function(){
+		$(this).children(".hide1").toggle();
+		$(this).children(".hide2").toggle();
+		$(this).siblings("ul").toggle();
+		})
+}
+
 function grzxhover(){
 		$('#personal .right .font div .p1').hover(
 			function(){
