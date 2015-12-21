@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>个人主页</title>
+<title>个人主页3</title>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!--bootstrap-->
 <link href="style/public.css" type="text/css" rel="stylesheet">
 <link type="text/css" href="style/superslide.css" rel="stylesheet">
 <link type="text/css" href="style/gerenzhuye.css" rel="stylesheet">
+<link type="text/css" href="style/gerenzhuye2.css" rel="stylesheet">
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script src="js/myjs.js"></script>
@@ -131,9 +132,9 @@
                 <div class="clear"></div>
             </dd>
             <ul>
-            	<li class="li1"><span class="span1 fl"></span><a href="#" class="fl">个人主页</a><div class="clear"></div></li>
+            	<li><span class="span1 fl"></span><a href="#" class="fl">个人主页</a><div class="clear"></div></li>
                 <li><span class="span2 fl"></span><a href="#" class="fl">评价管理</a><div class="clear"></div></li>
-                <li><span class="span3 fl"></span><a href="#" class="fl">账单明细</a><div class="clear"></div></li>
+                <li class="li1"><span class="span3 fl"></span><a href="#" class="fl">账单明细</a><div class="clear"></div></li>
                 <li><span class="span4 fl"></span><a href="#" class="fl">消息中心</a><div class="clear"></div></li>
             </ul>
         </dl>
@@ -175,216 +176,156 @@
     
     <div class="fl right">
     	<!--font-->
-    	<div class="font">
+    	<div class="font" id="zhuye3">
         	<div class="fl font1">
-            	<p class="p1 pink">账户信息</p>
+            	<p class="p1 pink">所有记录</p>
             	<p class="p2"><img src="images/grzx-line.png"/></p>
             </div>
             <div class="fl font1">
-            	<p class="p1">资料编辑</p>
+            	<p class="p1">充值记录</p>
             	<p class="p2"><img src="images/grzx-line.png"/></p>
             </div>
             <div class="fl font1">
-            	<p class="p1">修改密码</p>
+            	<p class="p1">消费记录</p>
             	<p class="p2"><img src="images/grzx-line.png"/></p>
             </div>
+            <div class="fl font1">
+            	<p class="p1">冻结记录</p>
+            	<p class="p2"><img src="images/grzx-line.png"/></p>
+            </div>
+            <div class="fl font1">
+            	<p class="p1">解冻记录</p>
+            	<p class="p2"><img src="images/grzx-line.png"/></p>
+            </div>
+            <form class="fr">
+            	<input type="text" class="form-control fl" placeholder="流水号">
+                <button type="submit" class="btn btn-default fr">搜索</button>
+            </form>
             <div class="clear"></div>
         </div>
         <!--font-end-->
         <div id="neirong">
-            <div class="main1 tab">
-                <dl class="personal">
-                    <dt class="fl">
-                        <img src="images/grzx-img.png"/>
-                    </dt>
-                    <dd class="fl dd1">
-                        <p><span>dfd456,</span>上午好！</p>
-                        <p><a href="#">修改个人信息&gt;</a></p>
-                    </dd>
-                    <dd class="fr dd2">
-                        <li>账户余额：<span>0.00</span>元</li>
-                        <li>可用余额：<span>0.00</span>元</li>
-                        <li>冻结余额：<span>0.00</span>元</li>
-                        <a href="#" class="a1">充值</a>
-                        <a href="#" class="a2">查看账单</a>
-                    </dd>
-                    <div class="clear"></div>
-                </dl>
-                <div class="icon">
-                    <div>
-                        <dl class="fl">
-                            <dt class="fl">
-                                <img src="images/grzx-1.png"/>
-                                
-                            </dt>
-                            <dd class="fl">
-                                <p>待执行订单：<span>0</span></p>
-                                <a href="">查看全部<strong>微信</strong>订单&gt;</a>
-                            </dd>
-                            <div class="clear"></div>
-                        </dl>
-                        <dl class="fr">
-                            <dt class="fl">
-                                <img src="images/grzx-2.png"/>
-                                
-                            </dt>
-                            <dd class="fl">
-                                <p>待执行订单：<span>0</span></p>
-                                <a href="">查看全部<strong>微博</strong>订单&gt;</a>
-                            </dd>
-                            <div class="clear"></div>
-                        </dl>
-                        <div class="clear"></div>
-                    </div>
-                    <div>
-                        <dl class="fl">
-                            <dt class="fl">
-                                <img src="images/grzx-3.png"/>
-                                
-                            </dt>
-                            <dd class="fl">
-                                <p>待执行订单：<span>0</span></p>
-                                <a href="">查看全部<strong>朋友圈</strong>订单&gt;</a>
-                            </dd>
-                            <div class="clear"></div>
-                        </dl>
-                        <dl class="fr">
-                            <dt class="fl">
-                                <img src="images/grzx-4.png"/>
-                                
-                            </dt>
-                            <dd class="fl">
-                                <p>待执行订单：<span>0</span></p>
-                                <a href="">查看全部<strong>新闻</strong>订单&gt;</a>
-                            </dd>
-                            <div class="clear"></div>
-                        </dl>
-                        <div class="clear"></div>
-                    </div>
-                    <div>
-                        <dl>
-                            <dt class="fl">
-                                <img src="images/grzx-5.png"/>
-                                
-                            </dt>
-                            <dd class="fl">
-                                <p>待执行订单：<span>0</span></p>
-                                <a href="">查看全部<strong>企业互推</strong>订单&gt;</a>
-                            </dd>
-                            <div class="clear"></div>
-                        </dl>
-                    </div>
-                </div>
+            <div class="zhuye3 tab">
+               <dl>
+               	   <dd class="dd1 pink">
+                   		<li class="li1">流水号</li>
+                        <li class="li2">发生时间</li>
+                        <li class="li3">分类</li>
+                        <li class="li4">金额</li>
+                        <li class="li5">当前金额</li>
+                        <li class="li6">冻结金额</li>
+                        <li class="li7">事由来源</li>
+                        <li class="li8">操作</li>
+                   </dd>
+                   <dd class="dd2">
+                   		<li class="li1"><span>DDFDSFGF</span></li>
+                        <li class="li2"><span>2015.12.26</span></li>
+                        <li class="li3">微信公众号推广</li>
+                        <li class="li4">¥598</li>
+                        <li class="li5">¥320</li>
+                        <li class="li6"><span>¥800</span></li>
+                        <li class="li7">微信公众号企业互推</li>
+                        <li class="li8"><a href="#">详细&gt;&gt;</a></li>
+                   </dd>
+               </dl> 
             </div>
-            <div class="main2 tab">
-                <h6>
-                    <span>账号安全</span>
-                </h6>
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">安全手机</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control gray" id="inputEmail3" placeholder="123*****254" >
-                            <p>为了您的账号安全，请填写并验证安全手机。手机号通过验证后不可自行修改！</p>
-                        </div>
-                    </div>
-                    <h6>
-                        <span>联系方式</span>
-                    </h6>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label"><span>*</span>联系人姓名</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label"><span>*</span>联系人邮箱</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">固定电话</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label"><span>*</span>QQ</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">MSN</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <h6>
-                        <span>企业信息编辑</span>
-                    </h6>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">公司名称</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">公司地址</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">公司网址</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">公司官方微博</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">公司简介</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputEmail3">
-                        </div>
-                    </div>
-                    <input type="submit" value="提交" class="button1"/>
-                    <input type="reset" value="重置" class="button2"/>
-                </form>
+            <div class="zhuye3 tab">
+               <dl>
+               	   <dd class="dd1 pink">
+                   		<li class="li1">流水号</li>
+                        <li class="li2">发生时间</li>
+                        <li class="li3">分类</li>
+                        <li class="li4">金额</li>
+                        <li class="li5">当前金额</li>
+                        <li class="li6">冻结金额</li>
+                        <li class="li7">事由来源</li>
+                        <li class="li8">操作</li>
+                   </dd>
+                   <dd class="dd2">
+                   		<li class="li1"><span>DDFDSFGF</span></li>
+                        <li class="li2"><span>2015.12.26</span></li>
+                        <li class="li3">微信公众号推广</li>
+                        <li class="li4">¥598</li>
+                        <li class="li5">¥320</li>
+                        <li class="li6"><span>¥800</span></li>
+                        <li class="li7">微信公众号企业互推</li>
+                        <li class="li8"><a href="#">详细&gt;&gt;</a></li>
+                   </dd>
+               </dl> 
             </div>
-            <div class="main3 tab">
-                <h6>
-                    <span>修改账号密码</span>
-                </h6>
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label"><span>*</span>新密码</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label"><span>*</span>重复输入新密码</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label"><span>*</span>原始密码</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputEmail3" >
-                        </div>
-                    </div>
-                    <input type="submit" value="提交" class="button1"/>
-                    <input type="reset" value="重置" class="button2"/>
-                </form>
+            <div class="zhuye3 tab">
+               <dl>
+               	   <dd class="dd1 pink">
+                   		<li class="li1">流水号</li>
+                        <li class="li2">发生时间</li>
+                        <li class="li3">分类</li>
+                        <li class="li4">金额</li>
+                        <li class="li5">当前金额</li>
+                        <li class="li6">冻结金额</li>
+                        <li class="li7">事由来源</li>
+                        <li class="li8">操作</li>
+                   </dd>
+                   <dd class="dd2">
+                   		<li class="li1"><span>DDFDSFGF</span></li>
+                        <li class="li2"><span>2015.12.26</span></li>
+                        <li class="li3">微信公众号推广</li>
+                        <li class="li4">¥598</li>
+                        <li class="li5">¥320</li>
+                        <li class="li6"><span>¥800</span></li>
+                        <li class="li7">微信公众号企业互推</li>
+                        <li class="li8"><a href="#">详细&gt;&gt;</a></li>
+                   </dd>
+               </dl> 
             </div>
+            <div class="zhuye3 tab">
+               <dl>
+               	   <dd class="dd1 pink">
+                   		<li class="li1">流水号</li>
+                        <li class="li2">发生时间</li>
+                        <li class="li3">分类</li>
+                        <li class="li4">金额</li>
+                        <li class="li5">当前金额</li>
+                        <li class="li6">冻结金额</li>
+                        <li class="li7">事由来源</li>
+                        <li class="li8">操作</li>
+                   </dd>
+                   <dd class="dd2">
+                   		<li class="li1"><span>DDFDSFGF</span></li>
+                        <li class="li2"><span>2015.12.26</span></li>
+                        <li class="li3">微信公众号推广</li>
+                        <li class="li4">¥598</li>
+                        <li class="li5">¥320</li>
+                        <li class="li6"><span>¥800</span></li>
+                        <li class="li7">微信公众号企业互推</li>
+                        <li class="li8"><a href="#">详细&gt;&gt;</a></li>
+                   </dd>
+               </dl> 
+            </div>
+            <div class="zhuye3 tab">
+               <dl>
+               	   <dd class="dd1 pink">
+                   		<li class="li1">流水号</li>
+                        <li class="li2">发生时间</li>
+                        <li class="li3">分类</li>
+                        <li class="li4">金额</li>
+                        <li class="li5">当前金额</li>
+                        <li class="li6">冻结金额</li>
+                        <li class="li7">事由来源</li>
+                        <li class="li8">操作</li>
+                   </dd>
+                   <dd class="dd2">
+                   		<li class="li1"><span>DDFDSFGF</span></li>
+                        <li class="li2"><span>2015.12.26</span></li>
+                        <li class="li3">微信公众号推广</li>
+                        <li class="li4">¥598</li>
+                        <li class="li5">¥320</li>
+                        <li class="li6"><span>¥800</span></li>
+                        <li class="li7">微信公众号企业互推</li>
+                        <li class="li8"><a href="#">详细&gt;&gt;</a></li>
+                   </dd>
+               </dl> 
+            </div>
+            
         </div>
     </div>
     <div class="clear"></div>

@@ -20,11 +20,23 @@ window.onload=function()
 /*renwudating-zhezhao-end*/
 
 $(document).ready(function()
-{tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();mtfwbuy();
-label(); exchange();order();hide2();
+{hov();tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();
+mtfwbuy();label(); exchange();order();hide2();
 });
 
 /*index*/
+function hov(){
+	$('#logo nav a').hover(
+	function(){
+		$('a').removeClass('pink')
+		$(this).addClass('pink')
+		},
+	function(){
+		$(this).removeClass('pink')
+		$('a:eq(0)').addClass('pink')
+		}
+	)
+}
 //banner-tab
  function tab(){
 	$("#tab dl").hide();
