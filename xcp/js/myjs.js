@@ -21,7 +21,7 @@ window.onload=function()
 
 $(document).ready(function()
 {hov();tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();
-mtfwbuy();label(); exchange();order();hide2();
+mtfwbuy();label(); exchange();order();hide2();tjmttab();
 });
 
 /*index*/
@@ -48,7 +48,6 @@ function hov(){
 		$("#tab dl:eq("+num+")").show()})
 }
 //banner-tab
-
 //index-banner-tab-hover 
 function hover(){
 		$('#qiehuan li').hover(
@@ -57,7 +56,6 @@ function hover(){
 				$(this).addClass('red')}
 )} 
 //index-banner-tab-hover
- 
 function tab1(){
 	$("#tab1 ul").hide();
 	$("#tab1 ul:eq(0)").show();
@@ -152,7 +150,6 @@ function yxmttab(){
 /*优选媒体-edn*/
 
 /*个人中心主*/
-
 function hide2(){
 	$("#personal .left dl dd").click(function(){
 		$(this).children(".hide1").toggle();
@@ -160,7 +157,6 @@ function hide2(){
 		$(this).siblings("ul").toggle();
 		})
 }
-
 function grzxhover(){
 		$('#personal .right .font div .p1').hover(
 			function(){
@@ -186,6 +182,16 @@ function grzxtab(){
 }	
 //tab-end
 /*个人中心主-end*/
+
+function tjmttab(){
+	$("#neirong-tjmtz .tjmtz").hide();
+	$("#neirong-tjmtz .tjmtz:eq(0)").show();
+	
+	$("#tjmtz1 a").hover(function(){
+		var num=$(this).index();
+		$("#neirong-tjmtz .tjmtz").hide();
+		$("#neirong-tjmtz .tjmtz:eq("+num+")").show()})
+}
 
 /*媒体服务购买页*/
 //top
