@@ -20,6 +20,12 @@
 #personal .right .zhuye2 dd .li8{ width:80px;}
 #personal .right .zhuye2 dd li a{ color:#007eff;}
 #personal .right .zhuye2 dd li a:hover{ text-decoration:underline;}
+#personal .right .zy2{ position:relative; }
+#personal .right .zy2 .text{ width:200px; margin-top:8px;}
+#personal .right .zy2 .iptgroup{ width:340px; height:34px; position:relative; bottom:17px; right:65px;}
+#personal .right .zy2 .iptgroup input{ height:34px; border-radius:5px; -webkit-border-radius:3px; width:150px;}
+#personal .right .zy2 button{ position:absolute; right:20px; top:8px; background:#ff3366; color:#fff;}
+
 
 #personal .right #zhuye3 form{ margin-top:10px;}
 #personal .right #zhuye3 form input{ width:200px;}

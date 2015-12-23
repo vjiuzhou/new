@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>个人主页2</title>
+<link href="style/doubleDate.css" type="text/css" rel="stylesheet" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
 <!--bootstrap-->
@@ -13,10 +14,19 @@
 <link type="text/css" href="style/gerenzhuye.css" rel="stylesheet">
 <link type="text/css" href="style/gerenzhuye2.css" rel="stylesheet">
 <script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-1.4.2.min.js"></script>
+<script src="js/doubleDate2.0.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script src="js/myjs.js"></script>
 </head>
-
+<script>
+$(function(){
+	$('.doubledate').kuiDate({
+		className:'doubledate',
+		isDisabled: "0"  // isDisabled为可选参数，“0”表示今日之前不可选，“1”标志今日之前可选
+	});
+});
+</script>
 <body>
 <!--top-->
 <div id="top">
@@ -177,7 +187,7 @@
     
     <div class="fl right">
     	<!--font-->
-    	<div class="font">
+    	<div class="font zy2">
         	<div class="fl font1">
             	<p class="p1 pink">总评价<span>(50)</span></p>
             	<p class="p2"><img src="images/grzx-line.png"/></p>
@@ -194,7 +204,20 @@
             	<p class="p1">差评<span>(5)</span></p>
             	<p class="p2"><img src="images/grzx-line.png"/></p>
             </div>
+            <form>
+                <div class="text fl">
+                    <input type="text" class="form-control" placeholder="账号">
+                </div>
+                <ul class="iptgroup fr">
+                    <li><input type="text" readonly class="doubledate ipticon" placeholder="开始时间"/></li>
+                    <li><input type="text" readonly class="doubledate ipticon" placeholder="结束时间"/></li>
+                </ul>
+                 <button type="submit" class="btn btn-default">搜索</button>
+            </form>
             <div class="clear"></div>
+            
+                
+            
         </div>
         <!--font-end-->
         <div id="neirong">
@@ -466,6 +489,5 @@
     </p>
 </div>
 <!--footer-end-->
-
 </body>
 </html>
