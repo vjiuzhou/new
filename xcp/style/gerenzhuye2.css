@@ -4,6 +4,58 @@
 
 #personal .right .font1{width:90px;}
 
+#personal .right .zhuye1{}
+
+/*main1*/
+#personal .zhuye1 .main1 .personal{ height:175px; border-bottom:1px solid #e9e9e9; font-size:0.875em;}
+#personal .zhuye1 .main1  a{ color:#33a3e7;}
+#personal .zhuye1 .main1 .personal dt{ margin:45px 40px 0px 90px;}
+#personal .zhuye1 .main1 .personal .dd1{ margin:45px 10px 0px 0px;}
+#personal .zhuye1 .main1 .personal .dd1 p{ margin:13px 0 8px 0;}
+#personal .zhuye1 .main1 .personal .dd1 span{ font-size:1.5em; font-family:"微软雅黑"; color:#000; }
+#personal .zhuye1 .main1 .personal .dd2{ margin:20px 270px 0px 0px;}
+#personal .zhuye1 .main1 .personal .dd2 li{ margin-bottom:18px;}
+#personal .zhuye1 .main1 .personal .dd2 span{ color:#ff3366;}
+#personal .zhuye1 .main1 .personal .dd2 a{ display:inline-block; line-height:35px; padding:0 15px;color:#fff; border-radius:5px; -webkit-border-radius:5px;}
+#personal .zhuye1 .main1 .personal .dd2 .a1{  background:#ff3366;}
+#personal .zhuye1 .main1 .personal .dd2 .a2{ background:#0089ff;}
+#personal .zhuye1 .main1 .icon{ font-size:0.875em; padding:30px 200px 0 50px;}
+#personal .zhuye1 .main1 .icon dl{ margin-bottom:70px;}
+#personal .zhuye1 .main1 .icon span{ color:#ff3366;}
+#personal .zhuye1 .main1 .icon dd{ margin:50px 0 0 15px;}
+#personal .zhuye1 .main1 .icon dd p{ margin-bottom:10px;}
+#personal .zhuye1 .main1 .icon strong{ color:#ff3366;}
+/*main1-end*/
+
+/*main2*/
+#personal .zhuye1 .main2{ padding:60px 70px 0 60px;}
+#personal .zhuye1 .main2 h6{ border-bottom:1px solid #e9e9e9; padding-bottom:5px; margin-bottom:15px;}
+#personal .zhuye1 .main2 h6 span{ color:#ff3366; border-bottom:1px solid #ff3366; padding-bottom:5px;}
+#personal .zhuye1 .main2 label{ font-weight:normal;}
+#personal .zhuye1 .main2 form .gray{ background:#eeeeee;}
+#personal .zhuye1 .main2 form p{ font-size:0.75em; margin-top:10px; }
+#personal .zhuye1 .main2 input{ width:470px;}
+#personal .zhuye1 .main2 label span{ display:inline-block; width:20px; text-align:center; color:#ff3366; padding-top:10px;}
+#personal .zhuye1 .main2 .button1{ background:#ff3366; margin-left:160px; color:#fff; width:90px; padding:8px 0;
+									border-radius:5px; -webkit-border-radius:5px;}
+#personal .zhuye1 .main2 .button2{ background:#ff3366; margin-left:10px; color:#fff; width:90px; padding:8px 0; 
+								  border-radius:5px; -webkit-border-radius:5px;}
+/*main2-end*/
+
+/*main3*/
+#personal .zhuye1 .main3{ padding:60px 70px 0 60px;}
+#personal .zhuye1 .main3 h6{ border-bottom:1px solid #e9e9e9; padding-bottom:5px; margin-bottom:15px;}
+#personal .zhuye1 .main3 h6 span{ color:#ff3366; border-bottom:1px solid #ff3366; padding-bottom:5px;}
+#personal .zhuye1 .main3 label{ font-weight:normal;}
+#personal .zhuye1 .main3 input{ width:470px;}
+#personal .zhuye1 .main3 label span{ display:inline-block; width:20px; text-align:center; color:#ff3366;
+									padding-top:10px;}
+#personal .zhuye1 .main3 .button1{ background:#0089ff; margin-left:160px; color:#fff; width:90px; padding:8px 0;
+									border-radius:5px; -webkit-border-radius:5px;}
+#personal .zhuye1 .main3 .button2{ background:#ff3366; margin-left:10px; color:#fff; width:90px; padding:8px 0; 
+								  border-radius:5px; -webkit-border-radius:5px;}
+/*main3-end*/
+
 #personal .right .zhuye2 dd{ border-bottom:1px solid #e9e9e9;}
 #personal .right .zhuye2 .pink{ color:#ff3366;}
 #personal .right .zhuye2 .dd1{ height:46px; line-height:46px;}
