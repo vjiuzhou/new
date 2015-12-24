@@ -26,16 +26,16 @@ mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();
 
 /*index*/
 function hov(){
-	$('#logo nav a').hover(
-	function(){
-		$('a').removeClass('pink')
-		$(this).addClass('pink')
-		},
-	function(){
-		$(this).removeClass('pink')
-		$('a:eq(0)').addClass('pink')
-		}
-	)
+		$('#logo nav a').hover(
+		function(){
+			$('#logo nav a').removeClass('pink')
+			$(this).addClass('pink')
+			},
+		function(){
+			$(this).removeClass('pink')
+			$('#logo nav a:eq(0)').addClass('pink')
+			}
+		)
 }
 //banner-tab
  function tab(){
