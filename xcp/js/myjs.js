@@ -21,7 +21,7 @@ window.onload=function()
 
 $(document).ready(function()
 {hov();tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();
-mtfwbuy();label(); exchange();order();hide2();tjmttab();
+mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();
 });
 
 /*index*/
@@ -115,7 +115,6 @@ function tab5(){
 				$(this).addClass('pink')}
 		)}		
 /*index-end*/	
-
 /*任务大厅*/	
 function rwtab(){
 	$("#rwtab ul").hide();
@@ -127,7 +126,6 @@ function rwtab(){
 		$("#rwtab ul:eq("+num+")").show()})
 }	
 /*任务大厅-end*/
-
 function hide(){
 		$("#yc span").click(function(){
 			$("#yc .yincang").toggle();
@@ -136,7 +134,6 @@ function hide(){
 			$("#yc dd").toggleClass("biankuang");
 			})
 }
-
 /*优选媒体*/	
 function yxmttab(){
 	$("#yxmt ul").hide();
@@ -148,7 +145,6 @@ function yxmttab(){
 		$("#yxmt ul:eq("+num+")").show()})
 }	
 /*优选媒体-edn*/
-
 /*个人中心主*/
 function hide2(){
 	$("#personal .left dl dd").click(function(){
@@ -182,7 +178,6 @@ function grzxtab(){
 }	
 //tab-end
 /*个人中心主-end*/
-
 function tjmttab(){
 	$("#neirong-tjmtz .tjmtz").hide();
 	$("#neirong-tjmtz .tjmtz:eq(0)").show();
@@ -192,7 +187,6 @@ function tjmttab(){
 		$("#neirong-tjmtz .tjmtz").hide();
 		$("#neirong-tjmtz .tjmtz:eq("+num+")").show()})
 }
-
 /*媒体服务购买页*/
 //top
 $(function(){
@@ -233,7 +227,6 @@ function exchange(){
 		$("#mtfw .left .footer .tab .exchange").hide();
 		$("#mtfw .left .footer .tab .exchange:eq("+num+")").show()})
 }
-
 //订单点击显示
 function order(){
 	$("#mtfw .top .dj").click(function(){
@@ -242,5 +235,28 @@ function order(){
 		})
 }
 //订单点击显示-end
-
 /*媒体服务购买页-end*/
+	
+/*媒体主个人中心首页*/
+function mtzgrzx1(){
+		$('#mtzgrzx .right .li4 .top a').hover(
+		function(){
+			$('#mtzgrzx .right .li4 .top a').removeClass('pink')
+			$(this).addClass('pink')
+			},
+		function(){
+			$(this).removeClass('pink')
+			$('#mtzgrzx .right .li4 .top a:eq(3)').addClass('pink')
+			}
+		)
+}
+function mtzgrzx2(){
+$('#mtzgrzx .right .middle dl').hover(
+	function(){
+		$('#mtzgrzx .right .middle dl').removeClass('bj')
+		$(this).addClass('bj')}
+)}
+/*媒体主个人中心首页-end*/		
+
+		
+		
