@@ -11,7 +11,7 @@
 #neirong-tjmtz{ padding:20px 45px 45px 45px;}
 .tjmtz1{ width:940px;}
 #neirong-tjmtz ul li{ height:270px; padding:25px 0; border-bottom:1px dashed #ff3366;}
-#neirong-tjmtz ul li p{font-size:1.25em;}
+#neirong-tjmtz ul li p{font-size:18px;}
 #neirong-tjmtz ul li .dt1{ width:180px;}
 #neirong-tjmtz ul li .dt2{ width:224px;}
 #neirong-tjmtz ul li dt a{ background:#ff3366; display:inline-block; width:100%; text-align:center; line-height:25px;}
@@ -21,8 +21,8 @@
 #neirong-tjmtz ul dd{ width:536px; height:100px; padding:15px 30px;}
 #neirong-tjmtz ul dd a:hover{ text-decoration:underline;}
 #neirong-tjmtz ul dd p a{ color:#ff3366; font-size:1.125em; font-family:"微软雅黑"; padding-bottom:5px;}
-#neirong-tjmtz ul dd span{ display:inline-block; color:#2da836; padding:0 5px; font-size:0.875em; line-height:16px;}
-#neirong-tjmtz ul dd .fanwei{ color:#5d5d5d; font-size:1.25em;}
+#neirong-tjmtz ul dd span{ display:inline-block; color:#2da836; padding:0 5px; font-size:12px; line-height:16px;}
+#neirong-tjmtz ul dd .fanwei{ color:#5d5d5d; font-size:14px;}
 #neirong-tjmtz ul dd .fanwei a{color:#5d5d5d;}
 #neirong-tjmtz ul dd .line{ padding-bottom:10px; border-bottom:1px solid #f1d6dd;}
 #neirong-tjmtz ul dd .margintop{ margin-top:15px;}

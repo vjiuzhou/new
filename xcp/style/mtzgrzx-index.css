@@ -45,8 +45,8 @@
 #mtzgrzx .right .li4 .noneborder{ border-right:none;}
 #mtzgrzx .right .li4 dl dd{ font-size:18px; font-family:"微软雅黑"; color:#474747; padding-top:10px;}
 #mtzgrzx .right .li4 dl b{font-size:18px; font-family:"微软雅黑"; color:#0261ff; font-weight:normal;}
-#mtzgrzx .right .li4 dl .z{text-align:right; color:#484848;}
-#mtzgrzx .right .li4 dl .y{ margin-left:3px; color:#ff3367;}
+#mtzgrzx .right .li4 dl .z{text-align:right; color:#484848; font-size:12px;}
+#mtzgrzx .right .li4 dl .y{ margin-left:3px; color:#ff3367; font-size:12px;}
 #mtzgrzx .right .li4 .data{width:110px; margin:0 auto;}
 #mtzgrzx .right .li4 .data p{ margin-top:5px;}
 #mtzgrzx .right .li4 .middle .shujutu{ text-align:center; margin:25px 0 15px 0;}
