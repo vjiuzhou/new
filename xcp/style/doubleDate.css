@@ -13,7 +13,7 @@ body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
 .kui_data_content_pane a:link,.kui_data_content_pane a:visited{color:#222222;text-decoration:none;font-weight:900;}
 .kui_data_content_pane a:hover{color:#fff;}
 .kui_date_reset{border-top:1px #2092D6 dotted;clear:both;margin:3px;padding:3px;text-align:right;}
-.kui_date_reset span{cursor:pointer;background:#2192D6;color:#FFF;padding:2px 5px;margin-left:3px;}
+.kui_date_reset span{cursor:pointer;background:#2192D6;color:#FFF;padding:2px 5px;margin-left:3px; font-size:14px;}
 .kui_prev_next_month{background:url(../images/date_top.png) 4px 0 no-repeat;border-bottom:0px solid #fd5900;height:23px;line-height:23px;font-weight:900;text-align:center;margin-top:3px;padding-top:1px;}
 .kui_prev_m,.kui_today{float:left;margin-left:6px;}
 .kui_prev_m{background:url(../images/date_prev.png) 0 0 no-repeat;height:21px;width:21px;}

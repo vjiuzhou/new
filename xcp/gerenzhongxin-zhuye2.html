@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>个人主页2</title>
-<link href="style/doubleDate.css" type="text/css" rel="stylesheet" />
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
 <!--bootstrap-->
-<link href="style/public.css" type="text/css" rel="stylesheet">
 <link type="text/css" href="style/superslide.css" rel="stylesheet">
+<link href="style/doubleDate.css" type="text/css" rel="stylesheet"/>
+<link href="style/public.css" type="text/css" rel="stylesheet"/>
 <link type="text/css" href="style/gerenzhuye.css" rel="stylesheet">
 <link type="text/css" href="style/gerenzhuye2.css" rel="stylesheet">
 <script src="js/jquery-1.10.2.min.js"></script>
@@ -23,10 +23,11 @@
 $(function(){
 	$('.doubledate').kuiDate({
 		className:'doubledate',
-		isDisabled: "0"  // isDisabled为可选参数，“0”表示今日之前不可选，“1”标志今日之前可选
+		isDisabled: "1"  // isDisabled为可选参数，“0”表示今日之前不可选，“1”标志今日之前可选
 	});
 });
 </script>
+
 <body>
 <!--top-->
 <div id="top">
@@ -184,7 +185,6 @@ $(function(){
             </ul>
         </dl>
     </div>
-    
     <div class="fl right">
     	<!--font-->
     	<div class="font zy2">
@@ -215,9 +215,6 @@ $(function(){
                  <button type="submit" class="btn btn-default">搜索</button>
             </form>
             <div class="clear"></div>
-            
-                
-            
         </div>
         <!--font-end-->
         <div id="neirong">
