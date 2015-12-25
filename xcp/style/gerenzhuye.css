@@ -9,20 +9,21 @@
 #logo .search select{ height:32px; border:none; border-right:2px solid #ff3366; width:120px; border-radius:0;}
 #logo .search input{ border:none; height:32px; line-height:32px; padding-left:5px;}
 #logo .search button{ float:right; width:106px; background:#ff3366; border:none; height:100%; color:#fff; cursor:pointer;}
-#logo .link{ font-size:0.75em;color:#a9a9a9; text-align:center; margin-top:6px;} 
+#logo .link{ font-size:12px;color:#a9a9a9; text-align:center; margin-top:6px;} 
 #logo .link a{ color:#a9a9a9;}
 #logo nav{ margin-top:-6px;}
-#logo nav a{color:#5d5d5d; font-size:1.125em; font-family:"微软雅黑"; padding:0 8px;}
+#logo nav a{color:#5d5d5d; font-size:18px; font-family:"微软雅黑"; padding:0 8px;}
 #logo .pink{color:#ff3366;}
 #logo nav .tuiguang{ display:inline-block; width:148px; height:40px; text-align:center; line-height:40px; background:#ff3366; color:#fff;}
 /*logo-end*/
-#weizhi{ color:#6f6f6f; font-size:0.75em;}
+
+#weizhi{ color:#6f6f6f; font-size:12px;}
 #weizhi p{ margin:10px 0;}
 #weizhi p a{ color:#6f6f6f; padding:0 5px 0 0;}
 #weizhi p a:hover{ text-decoration:underline;}
 
 /*personal*/
-#personal{ border:1px solid #e9e9e9; border-radius:10px; -webkit-border-radius:10px; margin-top:10px; font-size:0.85em;}
+#personal{ border:1px solid #e9e9e9; border-radius:10px; -webkit-border-radius:10px; margin-top:10px; font-size:14px;}
 /*left*/
 #personal .left{ width:168px;}
 #personal .left .height25{ width:168px; height:25px;}
@@ -68,7 +69,7 @@
 #personal .right .font{ height:50px; border-bottom:1px solid #e9e9e9; padding-left:15px;}
 #personal .right .font1{margin:0 5px; margin-top:24px; cursor:pointer;}
 #personal .right .font1 .pink{color:#ff3366;}
-#personal .right .font .p1{ font-size:1.25em; }
+#personal .right .font .p1{ font-size:14px; }
 #personal .right .font .p2{ height:8px; margin-top:-8px; display:none;}
 
 /*right-end*/
