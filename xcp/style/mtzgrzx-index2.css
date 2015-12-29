@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#personal .right{ height:1600px;}
+#personal .font{ margin-bottom:30px;}
+#personal .font .font1{ width:80px;}
+#personal .font .font2{ margin-right:20px; margin-top:26px;}
+#personal .font a{ background:#ff3366; padding:5px 10px;}
+#personal #neirong .index2 ul{font-size:12px; padding:0 30px;}
+#personal #neirong .index2 ul .li1{ line-height:22px;}
+#personal #neirong .index2 ul .wid60{ width:60px; text-align:left;}
+#personal #neirong .index2 ul .left30{ margin-left:30px;}
+#personal #neirong .index2 ul .left15{ margin-left:15px;}
+#personal #neirong .index2 ul .red{color:#ff0000;}
+#personal #neirong .index2 ul .li2{ margin-top:5px; line-height:34px;}
+#personal #neirong .index2 ul .li2 input{ width:150px;}
+#personal #neirong .index2 ul .li2 span{ display:inline-block; margin-right:3px;}
+#personal #neirong .index2 ul .li2 select{ width:160px;}
+#personal #neirong .index2 ul .li3{ margin-top:5px;}
+#personal #neirong .index2 ul .wid92{ width:92px;}
+#personal #neirong .index2 ul .wid72{ width:72px;}
+#personal #neirong .index2 ul .wid56{ width:56px;}
+#personal #neirong .index2 ul .wid94{ width:94px;}
+#personal #neirong .index2 ul .li3 .wid60{ line-height:90px;}
+#personal #neirong .index2 ul .gray{ background:#eeeeee; border:1px solid #cccccc; margin-top:5px; padding:5px;}
+#personal #neirong .index2 ul .gray input{ margin-right:5px;}
+#personal #neirong .index2 ul .li4{ margin-top:15px; position:relative;}
+#personal #neirong .index2 ul .li4 a{ background:#ff3366; padding:5px; border-radius:5px; -webkit-border-radius:5px;  position:absolute; left:100px; top:-5px;}
+#personal #neirong .index2 ul .li4 input{ position:relative; z-index:99; opacity:0; filter:alpha(opacity=0); cursor:pointer;}
+#personal #neirong .index2 ul .li4 .picture { margin-top:10px;}
+#personal #neirong .index2 ul .li4 .picture span{display:inline-block; width:92px; height:92px; background:#f8f8f8; margin-right:10px; border:1px solid #cdcdcd; line-height:92px; text-align:center; color:#b5b5b5;}
+#personal #neirong .index2 ul .li4 .picture .orange{ border-color:#ffc097;}
+#personal #neirong .index2 ul .li5{ margin-top:15px; line-height:34px;}
+#personal #neirong .index2 ul .li5 input{ width:300px;}
+#personal #neirong .index2 ul .li6{ margin-top:5px;}
+#personal #neirong .index2 ul .li6 textarea{ width:500px; margin-top:5px;}
+#personal #neirong .index2 ul .li6 span{ display:inline-block; margin:5px 0;}
+#personal #neirong .index2 ul .li6 .pink{ color:#ff3366;}
+#personal #neirong .index2 ul .li6 table{ border:1px solid #ccc;}
+#personal #neirong .index2 ul .li6 table .item input{ height:32px;text-align:center;}
+#personal #neirong .index2 ul .li6 table tr{ border:1px solid #ccc;}
+#personal #neirong .index2 ul .li6 table td{ text-align:center;width:120px;  border:1px solid #ccc; 
+											height:32px; line-height:32px;}
+#personal #neirong .index2 ul .li6 table .item2 input{ margin-top:3px; background:#000;}
+#personal #neirong .index2 ul .li7 { width:700px;}
+#personal #neirong .index2 ul .li7 span{ display:inline-block; margin:10px 0; font-size:14px;}
+#personal #neirong .index2 ul .li8{ text-align:center; margin-top:30px; font-size:14px;}
+#personal #neirong .index2 ul .li8 p span{ color:#ff3366;}
+#personal #neirong .index2 ul .li8 .input2 input{color:#fff; width:84px; height:34px; border-radius:5px; 
+												  -webkit-border-radius:5px; margin-top:10px;}
+#personal #neirong .index2 ul .li8 .but1{ background:#ff3366; }
+#personal #neirong .index2 ul .li8 .but2{ background:#00a8ff; color:#fff;}
