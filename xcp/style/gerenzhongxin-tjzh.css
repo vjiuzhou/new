@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#personal .left{}
+/*#personal .right .tjzh1*/
+#personal .right { height:950px;}
+#personal .right .tjzh1 .li1{ padding:10px 0 10px 15px; border-bottom:1px solid #e9e9e9;}
+#personal .right .tjzh1 .li1 a{ background:#ff3366; color:#fff; font-size:14px;}
+#personal .right .tjzh1 .li1 form{ float:left;}
+#personal .right .tjzh1 .li1 form select{ width:105px;font-size:12px; margin-left:5px;}
+#personal .right .tjzh1 .li1 form input{ width:115px;font-size:12px; margin-left:8px; border-color:#ff3366;}
+#personal .right .tjzh1 .li1 form .search{ background:#ff3366; color:#fff; width:60px; font-size:14px;}
+#personal .right .tjzh1 .li2{ padding:10px; font-size:14px; border-bottom:1px solid #e9e9e9;}
+#personal .right .tjzh1 .li2 a{ color:#7f7f7f; padding:4px 10px; border:1px solid #ff3366; margin-left:5px; font-size:12px;}
+#personal .right .tjzh1 .li2 .orange{ color:#ff6600;}
+#personal .right .tjzh1 .li2 b{ font-weight:normal; color:#7f7f7f;}
+#personal .right .tjzh1 dl{ margin-left:5px; margin-right:5px;}
+#personal .right .tjzh1 dl .dd1{ height:65px; line-height:65px; background:#ff3366; color:#fff; text-align:center;}
+#personal .right .tjzh1 dl li{ border-right:1px solid #fff;}
+#personal .right .tjzh1 dl .wid1{width:27px;}
+#personal .right .tjzh1 dl .wid2{width:66px;}
+#personal .right .tjzh1 dl .wid3{width:66px;}
+#personal .right .tjzh1 dl .wid4{width:109px;}
+#personal .right .tjzh1 dl .wid5{width:105px;}
+#personal .right .tjzh1 dl .wid6{width:96px;}
+#personal .right .tjzh1 dl .wid7{width:344px;}
+#personal .right .tjzh1 dl .wid8{width:70px;}
+#personal .right .tjzh1 dl .wid9{width:70px;}
+#personal .right .tjzh1 dl .wid10{width:66px;}
+#personal .right .tjzh1 dl .dd2{ height:70px; line-height:70px; background:#ffe1e9; color:#ff3366; text-align:center;
+								border-bottom:2px solid #fff;}
+#personal .right .tjzh1 dl .dd2 .price{ line-height:17px; font-size:12px;}
+#personal .right .tjzh1 dl .dd2 .price p{ width:57px; border-right:1px solid #fff; height:34px; border-bottom:1px solid #fff;}
+#personal .right .tjzh1 dl .dd2 .price .wid58{ width:58px; border-right:none;}
+#personal .right .tjzh1 dl .dd2 .price2{ line-height:34px;}
+#personal .right .tjzh1 dl .dd2 .price2 p{ border-bottom:none;}
+#personal .right .tjzh1 .page{ margin:20px 0 0 5px;}
+#personal .right .tjzh1 .page a{ color:#000; display:inline-block; padding:6px; border:1px solid #dddddd; font-size:14px;}
+#personal .right .tjzh1 .page span{ background:#ff3366; color:#fff; display:inline-block; padding:7px;}
+/*#personal .right .tjzh1-end*/

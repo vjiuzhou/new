@@ -21,7 +21,7 @@ window.onload=function()
 
 $(document).ready(function()
 {hov();tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();
-mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();
+mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();tjzh1();
 });
 
 /*index*/
@@ -258,5 +258,11 @@ $('#mtzgrzx .right .middle dl').hover(
 )}
 /*媒体主个人中心首页-end*/		
 
-		
-		
+/*个人主页-添加账号*/		
+function tjzh1(){
+	$('#tjzh1 .li2 a').click(
+		function(){
+			$('#tjzh1 .li2 a').removeClass('orange')
+			$(this).addClass('orange')}
+	)}	
+/*个人主页-添加账号-end*/
