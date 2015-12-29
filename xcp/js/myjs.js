@@ -21,7 +21,7 @@ window.onload=function()
 
 $(document).ready(function()
 {hov();tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();
-mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();tjzh1();
+mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();tjzh1();index2();
 });
 
 /*index*/
@@ -266,3 +266,12 @@ function tjzh1(){
 			$(this).addClass('orange')}
 	)}	
 /*个人主页-添加账号-end*/
+
+
+//function index2(){
+//	$('#personal .index2 select #switch1').hover(
+//		function(){
+//			$('#personal .index2 .li2 .gray').show();
+//			}
+//	
+//	)}
