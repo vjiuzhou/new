@@ -21,7 +21,7 @@
 #personal #neirong .index2 ul .wid56{ width:56px;}
 #personal #neirong .index2 ul .wid94{ width:94px;}
 #personal #neirong .index2 ul .li3 .wid60{ line-height:90px;}
-#personal #neirong .index2 ul .gray{ background:#eeeeee; border:1px solid #cccccc; margin-top:5px; padding:5px;}
+#personal #neirong .index2 ul .gray{ background:#eeeeee; border:1px solid #cccccc; margin-top:5px; padding:5px; display:none;}
 #personal #neirong .index2 ul .gray input{ margin-right:5px;}
 #personal #neirong .index2 ul .li4{ margin-top:15px; position:relative;}
 #personal #neirong .index2 ul .li4 a{ background:#ff3366; padding:5px; border-radius:5px; -webkit-border-radius:5px;  position:absolute; left:100px; top:-5px;}
