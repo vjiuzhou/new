@@ -21,7 +21,8 @@ window.onload=function()
 
 $(document).ready(function()
 {hov();tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();
-mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();tjzh1();index2();
+mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();
+tjzh1();tjzh2();tjzh3();tjzh4();tjzh5();tjzh6();
 });
 
 /*index*/
@@ -258,20 +259,45 @@ $('#mtzgrzx .right .middle dl').hover(
 )}
 /*媒体主个人中心首页-end*/		
 
-/*个人主页-添加账号*/		
+/*个人主页-添加账号*/
 function tjzh1(){
-	$('#tjzh1 .li2 a').click(
+	$('#tjzh1 .sorting1 a').click(
 		function(){
-			$('#tjzh1 .li2 a').removeClass('orange')
+			$('#tjzh1 .sorting1 a').removeClass('orange')
 			$(this).addClass('orange')}
-	)}	
+	)}
+function tjzh2(){
+	$('#tjzh1 .sorting2 a').click(
+		function(){
+			$('#tjzh1 .sorting2 a').removeClass('orange')
+			$(this).addClass('orange')}
+	)}
+function tjzh3(){
+	$('#tjzh1 .sorting3 a').click(
+		function(){
+			$('#tjzh1 .sorting3 a').removeClass('orange')
+			$(this).addClass('orange')}
+	)}
+function tjzh4(){
+	$('#tjzh1 .sorting4 a').click(
+		function(){
+			$('#tjzh1 .sorting4 a').removeClass('orange')
+			$(this).addClass('orange')}
+	)}
+function tjzh5(){
+	$('#tjzh1 .sorting5 a').click(
+		function(){
+			$('#tjzh1 .sorting5 a').removeClass('orange')
+			$(this).addClass('orange')}
+	)}
+function tjzh6(){
+	$('#tjzh1 .sorting6 a').click(
+		function(){
+			$('#tjzh1 .sorting6 a').removeClass('orange')
+			$(this).addClass('orange')}
+	)}
 /*个人主页-添加账号-end*/
 
 
-//function index2(){
-//	$('#personal .index2 select #switch1').hover(
-//		function(){
-//			$('#personal .index2 .li2 .gray').show();
-//			}
-//	
-//	)}
+				
+            
