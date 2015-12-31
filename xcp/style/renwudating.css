@@ -78,7 +78,7 @@
 /*mian2-meitixuanze*/
 #main2{}
 #main2 ul li{ margin-top:20px;}
-#main2 dl{ width:225px; border:1px solid #ffdce5; height:328px;}
+#main2 dl{ width:225px; border:1px solid #ffdce5; height:330px;}
 #main2 li .marginright{ margin-right:19px;}
 #main2 dl:hover{ border:1px solid #ff3366;}
 #main2 dt { position:relative;}
@@ -92,11 +92,12 @@
 #main2 dl div p{ font-size:12px;}
 #main2 dl div b{ font-size:18px; color:#fd2b2b;}
 #main2 dl div a{ color:#5d5d5d;}
-#main2 dl .ww{border-top:1px solid #ffdce3; padding:0 10px 0 4px;}
-#main2 dl .ww p{ line-height:25px; border-right:1px solid #ffdce3;}
+#main2 dl .ww{border-top:1px solid #ffdce3; padding:0 10px 0 4px; margin-top:-1px;}
+#main2 dl .ww p{  border-right:1px solid #ffdce3;}
 #main2 dl .ww .p1{ padding-right:3px;}
 #main2 dl .ww .p2{ padding:0 3px;}
-#main2 dl .ww a{ display:inline-block; text-align:center;}
+#main2 dl .ww a{ display:inline-block; text-align:center; }
+#main2 dl .ww span{ font-size:12px;}
 /*mian2-end-meitixuanze*/
 
 
