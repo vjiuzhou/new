@@ -22,7 +22,7 @@ window.onload=function()
 $(document).ready(function()
 {hov();tab();hover();tab1(); tab2();tab3();tab4();tab5();hover2(); rwtab(); hide();yxmttab();grzxtab();grzxhover();b();
 mtfwbuy();label(); exchange();order();hide2();tjmttab();mtzgrzx1();mtzgrzx2();
-tjzh1();tjzh2();tjzh3();tjzh4();tjzh5();tjzh6();
+tjzh1();tjzh2();tjzh3();tjzh4();tjzh5();tjzh6(); wddd();
 });
 
 /*index*/
@@ -298,6 +298,11 @@ function tjzh6(){
 	)}
 /*个人主页-添加账号-end*/
 
-
-				
-            
+/*我的订单*/
+function wddd(){
+		$("#wddd .wddd1-main1 .dj").click(function(){
+			$("#wddd #zhezhao").show();
+			$("#wddd #xiangqing").show();
+			})
+	}				
+/*我的订单*/          
