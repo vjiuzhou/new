@@ -6,12 +6,12 @@
 #fenlei{ padding:10px 30px;}
 #fenlei p{ margin-bottom:10px;}
 #fenlei ul li{ margin-bottom:5px;}
-#fenlei ul dl dt{ color:#ff3366; width:118px; height:28px; border:1px solid #ff3366;font-size:1.125em; text-align:center; 		                  line-height:28px; margin-right:10px;}
+#fenlei ul dl dt{ color:#ff3366; width:118px; height:28px; border:1px solid #ff3366;font-size:18px; text-align:center; 		                  line-height:28px; margin-right:10px;}
 #fenlei ul .yc{ position:relative; z-index:999;}
 #fenlei ul dl .biankuang{ border:1px solid #ff3366;}
 #fenlei ul dl .hide2{ display:none;}
 #fenlei ul dl dd { line-height:30px;}
-#fenlei ul dl dd a{ color:#333; padding:0 5px;font-size:0.875em;}
+#fenlei ul dl dd a{ color:#333; padding:0 4px;font-size:14px;}
 #fenlei ul dl dd a:hover{ text-decoration:underline;}
 #fenlei ul dl span{ margin-left:30px; cursor:pointer;}
 #fenlei ul dl .yincang{ display:none;}
@@ -26,15 +26,15 @@
 #main{margin-top:50px;}
 #main .title{color:#ff3366; font-family:"微软雅黑"; height:35px; line-height:35px;  margin-bottom:10px;}
 #main .title a{color:#ff3366; padding:0 5px;}
-#main .title1{font-size:1.125em;}
-#main .title2{ font-size:1.5em;}
+#main .title1{font-size:18px;}
+#main .title2{ font-size:24px;}
 #main .left{ width:965px;}
 
 #biaoge{}
-#biaoge table {font-size:0.875em; text-align:center; border:1px solid #fe7899; color:#5d5d5d; }
+#biaoge table {font-size:14px; text-align:center; border:1px solid #fe7899; color:#5d5d5d; }
 #biaoge table progress{ width:93px; height:7px;}
 #biaoge table td{ height:40px; border-bottom:1px solid #fe7899; border-right:1px solid #fe7899; }
-#biaoge table .size{ font-size:1.125em; font-family:"微软雅黑";}
+#biaoge table .size{ font-size:18px; font-family:"微软雅黑";}
 #biaoge table .jianju{ padding:0 2px;}
 #biaoge table .pink{ color:#ff3266;}
 #biaoge table a{ display:inline-block; width:100%; height:36px; line-height:36px; text-align:center;background:#ff3366; }
@@ -42,9 +42,9 @@
 #biaoge table a:visited{ color:#fff;}
 
 /*zhezhao*/
-.zhezhao{  width:100%;height:100%; background-color:#000; filter:alpha(opacity=20); -moz-opacity:0.2; opacity:0.2; 
+.zhezhao{  width:100%;height:3076px; background-color:#000; filter:alpha(opacity=20); -moz-opacity:0.2; opacity:0.2; 
  		position:absolute;  left:0px; top:0px;   z-index:1000; display:none; } 
-.xiangqing{ position:absolute; top:100px;left:30%; z-index:1500;width:600px; margin:0 auto; background:#fff;
+.xiangqing{ position:absolute; top:700px;left:30%; z-index:1500;width:600px; margin:0 auto; background:#fff;
 			padding:40px 30px; border-radius:10px;-webkit-border-radius:10px; box-shadow:0px 0px 10px #000; 
 			-webkit-box-shadow:0px 0px 10px #000; -moz-box-shadow:0px 0px 10px #000; -ms-box-shadow:0px 0px 10px #000; 		   	            -o-box-shadow:0px 0px 10px #000; display:none; }
 .xiangqing span{ cursor:pointer;}
@@ -65,10 +65,10 @@
 #main .right dt:hover .ys{ display:block;}
 #main .right dl .jianju{ padding:0 4px;}
 #main .right dd a{ color:#5d5d5d;}
-#main .right dd{ font-family:"微软雅黑"; font-size:1.125em;}
+#main .right dd{ font-family:"微软雅黑"; font-size:18px;}
 #main .right dd span{ margin-left:10px;}
 #main .right .marginbot{ margin-bottom:26px;}
-#main .right dl div p{ font-size:0.75em;}
+#main .right dl div p{ font-size:14px;}
 #main .right dl div b{ font-size:1.125e; color:#fd2b2b;}
 #main .right dl div a{ display:inline-block; width:45px; height:55px; position:relative; left:40px; bottom:15px;}
 /*main-end-renwudating*/
@@ -85,12 +85,12 @@
 #main2 dt .ys{ width:223px; height:223px; background:rgba(0,0,0,0.5); color:#fffb01; text-align:center; padding-top:90px;
 				position:absolute; top:0px; left:0px; z-index:999; display:none;}
 #main2 dt:hover .ys{ display:block;}
-#main2 dd{ font-family:"微软雅黑"; font-size:1.125em; color:#ff3366;}
+#main2 dd{ font-family:"微软雅黑"; font-size:16px; color:#ff3366;}
 #main2 dd span{ margin-left:10px;}
 #main2 dl .jianju{ padding:0 4px;}
 #main2 dl dd a{ color:#ff3366;}
-#main2 dl div p{ font-size:0.75em;}
-#main2 dl div b{ font-size:1.125e; color:#fd2b2b;}
+#main2 dl div p{ font-size:12px;}
+#main2 dl div b{ font-size:18px; color:#fd2b2b;}
 #main2 dl div a{ color:#5d5d5d;}
 #main2 dl .ww{border-top:1px solid #ffdce3; padding:0 10px 0 4px;}
 #main2 dl .ww p{ line-height:25px; border-right:1px solid #ffdce3;}
