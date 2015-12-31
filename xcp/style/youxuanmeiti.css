@@ -4,6 +4,7 @@
 #yxmt-banner{text-align:center;}
 
 #main{}
+#main .top15{margin-top:15px;}
 #main .left{ width:940px;}
 #main .left #neirong li{ height:270px; padding:25px 0; border-bottom:1px dashed #ff3366;}
 #main .left #neirong li .dt1{ width:180px;}
